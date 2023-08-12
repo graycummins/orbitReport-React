@@ -8,7 +8,6 @@
    The all button will just provide all the data whenever the button is pressed
 */
 
-import { useState } from "react";
 import satData from "./satData";
 import './styling.css';
 
