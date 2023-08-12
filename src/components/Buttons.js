@@ -24,7 +24,7 @@ const Buttons = ({filterByType, setSat, displaySats}) => {
   //button called 'all orbits'
   return (
     <div className ='flex-container'>
-  {displaySats.map((sat, id) => {
+    {displaySats.map((sat, id) => {
     return (
       <button onClick ={() => filterByType(sat)} key = {id}>
       {sat} Orbit
