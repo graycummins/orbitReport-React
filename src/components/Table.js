@@ -1,4 +1,7 @@
+import './styling.css';
+
 const Table = ({ sat }) => {
+
   return (
       <table>
        <thead>
@@ -11,12 +14,17 @@ const Table = ({ sat }) => {
         </thead>
         <tbody>
           {sat.map((data, id) => {
+            let dataOperational = data.operational;
+            let dataName = data.name;
+            let dataType = data.type;
+            let dataLaunchDate = data.launchDate;
+
             return (
               <tr>
-                <td>{data.name}</td>
-                <td>{data.type}</td>
-                <td>{data.launchDate}</td>
-                <td>{data.operational}</td>
+                <td>{dataName}</td>
+                <td>{dataType}</td>
+                <td>{dataLaunchDate}</td>
+                <td>{dataOperational ? 'active' : 'inactive'}</td>
               </tr>
             );
           })};
