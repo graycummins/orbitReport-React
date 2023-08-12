@@ -58,3 +58,10 @@ h1 {
   color: white;
   font-size: 60px;
 }
+header {
+  padding: 20px;
+  text-align: center;
+  background: #5c94ce;
+  color: black;
+  font-size: 60px;
+}
