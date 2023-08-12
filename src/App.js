@@ -8,6 +8,8 @@
    Buttons will display the correct satellite corresponding to the button pressed (low orbit, medium orbit, high orbit, and all orbits)
    Table will display the satelittle from the button the user pressed
    Table will correspond with the button the user pressed
+
+   Partially created from provided code from Launch Code LC101
 */
 
 import Buttons from "./components/Buttons";
